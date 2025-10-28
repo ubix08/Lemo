@@ -36,6 +36,7 @@ const tableSync = async () => {
   await FileVersion.sync({ alter: true });
   await Knowledge.sync({ alter: true });
   await User.sync({ alter: true });
+  await FileContext.sync({ alter: true });
 }
 
 const dataSync = async () => {
