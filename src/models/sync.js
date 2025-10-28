@@ -17,6 +17,7 @@ const Agent = require('./Agent');
 const FileVersion = require('./FileVersion');
 const Knowledge = require('./Knowledge');
 const User = require('./User');
+const FileContext = require('./FileContext');
 
 const tableSync = async () => {
   await Conversation.sync({ alter: true });
